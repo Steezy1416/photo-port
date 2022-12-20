@@ -27,13 +27,13 @@ const Nav = () => {
     return (
         <header>
             <h2>
-                <a href="/"><span role="img" aria-label="camera">📸</span> Oh Snap!</a>
+                <a data-testid="link" href="/"><span role="img" aria-label="camera">📸</span> Oh Snap!</a>
             </h2>
 
             <nav>
                 <ul className="flex-flow">
                     <li className="mx-2">
-                        <a href="#about">
+                        <a data-testid="about" href="#about">
                             About Me
                         </a>
                     </li>
